@@ -1,0 +1,20 @@
+.content {
+    height: auto;
+    width: auto;
+    /* Same as the width of the sidebar */
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+.card-container {
+    /*Wtf is that spacing?*/
+    height: 100vh;
+    background-color: blanchedalmond;
+    align-content: center;
+}
+
+.intro {
+    height: 100vh;
+    align-content: center;
+}
