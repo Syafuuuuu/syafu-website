@@ -1,0 +1,58 @@
+.SidebySide {
+    text-align: center;
+    width: 100%;
+}
+
+.Dev-Col {
+    height: 80%;
+    width: 30%;
+    padding: 30px;
+    margin: 15px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: rgb(40, 40, 40);
+    text-align: left;
+    align-content: center;
+    border: 4px;
+    border-color: white;
+    border-radius: 20px;
+}
+
+.Dev-Col ul {
+    list-style-type: none;
+}
+
+.Dev-Col li {
+    font-size: 30px;
+}
+
+.Dev-Col img {
+    margin: 10px 20px 10px 10px;
+}
+
+.Dsg-Col {
+    height: 80%;
+    width: 30%;
+    padding: 30px;
+    margin: 15px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: rgb(129, 139, 75);
+    text-align: left;
+    align-content: center;
+    border: 4px;
+    border-color: white;
+    border-radius: 20px;
+}
+
+.Dsg-Col ul {
+    list-style-type: none;
+}
+
+.Dsg-Col li {
+    font-size: 30px;
+}
+
+.Dsg-Col img {
+    margin: 10px 20px 10px 10px;
+}

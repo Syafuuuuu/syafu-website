@@ -1,4 +1,5 @@
 import HighlightCard from "./HighlightCard.tsx";
+import Tricks from "./Tricks.tsx";
 
 function Home() {
   return (
@@ -25,6 +26,11 @@ function Home() {
             title="One Million Fireflies"
             desc="Counting firefly population in Langkawi for the local community"
           />
+        </div>
+        <div className="tricks-container">
+          <h1>Tricks of the Trade</h1>
+          <br></br>
+          <Tricks />
         </div>
       </div>
     </>
