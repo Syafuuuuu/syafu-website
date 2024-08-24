@@ -27,6 +27,15 @@
     align-content: center;
 }
 
+.proj-container {
+    /*Wtf is that spacing?*/
+    height: 100vh;
+    background-color: rgb(52, 32, 3);
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
 .intro {
     height: 100vh;
     align-content: center;

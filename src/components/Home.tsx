@@ -1,4 +1,5 @@
 import HighlightCard from "./HighlightCard.tsx";
+import Projects from "./Projects.tsx";
 import Tricks from "./Tricks.tsx";
 
 function Home() {
@@ -10,7 +11,6 @@ function Home() {
           <h1>Artificial Intelligence Engineer</h1>
           <p>dajdajdh ajd j dla jshdj</p>
         </div>
-
         <div className="card-container">
           <h1>Highlight Projects</h1>
           <br></br>
@@ -31,6 +31,9 @@ function Home() {
           <h1>Tricks of the Trade</h1>
           <br></br>
           <Tricks />
+        </div>
+        <div className="proj-container">
+          <Projects />
         </div>
       </div>
     </>
