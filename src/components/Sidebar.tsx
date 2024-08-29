@@ -2,7 +2,9 @@ function Sidebar() {
   return (
     <>
       <div className="sidebar">
-        <h1>Syafu</h1>
+        <div className="sidebar-left">
+          <img src="./assets/attSyafuLight.png" height="40px" />
+        </div>
         <div className="sidebar-right">
           <a href="#1">About Me</a>
           <a href="#2">Projects</a>

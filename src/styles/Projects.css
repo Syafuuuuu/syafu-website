@@ -1,6 +1,8 @@
 .proj-left {
     width: 50vw;
-    background-color: rgb(255, 221, 176);
+    background-color: #f7f8f1;
+    margin: 15vh 0 0 0;
+    border-radius: 0px 30px 0px 0px;
     align-content: center;
 }
 
@@ -14,7 +16,7 @@
 
 .proj-left a {
     font-size: 1.25rem;
-    color: darkslateblue;
+    color: #04151f;
     text-decoration: none;
 }
 
@@ -24,7 +26,7 @@
     justify-content: space-between;
     align-content: center;
     padding: 2vh 0;
-    border-bottom: solid black;
+    border-bottom: solid #04151f;
 }
 
 .proj-title {
@@ -36,8 +38,8 @@
 }
 
 .proj-right {
+    margin: 15vh 0 0 0;
     width: 50vw;
-    background-color: blueviolet;
     align-content: center;
 }
 

@@ -3,7 +3,7 @@ function Projects() {
     <>
       <div className="proj-left">
         <div>
-          <h3>Works</h3>
+          <h3>Work Archive</h3>
         </div>
         <ul>
           <Project title="FYP Pt.1" desc="yeet" />

@@ -1,21 +1,39 @@
 .SidebySide {
     text-align: center;
+    height: 100vh;
     width: 100%;
+    align-content: center;
 }
 
 .Dev-Col {
-    height: 80%;
+    height: auto;
     width: 30%;
     padding: 30px;
     margin: 15px;
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #5d5e5b;
     background-color: rgb(40, 40, 40);
+    color: #5d5e5b;
     text-align: left;
     align-content: center;
-    border: 4px;
-    border-color: white;
     border-radius: 20px;
+    align-content: center;
+    transition: all 300ms ease-in-out;
+    box-shadow: 0 0 0 rgba(255, 255, 255, 0.254);
+}
+
+.Dev-Col:hover {
+    transform: rotate3d(-0.1, -0.5, -0.1, 20deg);
+    transition: all 300ms ease-in-out;
+    background-color: #383838;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #f7f8f1;
+    color: #f7f8f1;
+    box-shadow: 0 0 20px #f7f8f1;
 }
 
 .Dev-Col ul {
@@ -31,18 +49,35 @@
 }
 
 .Dsg-Col {
-    height: 80%;
+    height: auto;
     width: 30%;
     padding: 30px;
     margin: 15px;
     display: inline-block;
-    vertical-align: top;
-    background-color: rgb(129, 139, 75);
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ff1654;
+    background-color: #4d0316;
+    color: #5d5e5b;
     text-align: left;
     align-content: center;
-    border: 4px;
-    border-color: white;
     border-radius: 20px;
+    align-content: center;
+    transition: all 300ms ease-in-out;
+    box-shadow: 0 0 0 rgba(255, 255, 255, 0.254);
+
+}
+
+.Dsg-Col:hover {
+    transform: rotate3d(0.1, 0.5, 0.1, 20deg);
+    transition: all 300ms ease-in-out;
+    background-color: #a00a30;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #f7f8f1;
+    color: #f7f8f1;
+    box-shadow: 0 0 20px #f7f8f1;
 }
 
 .Dsg-Col ul {

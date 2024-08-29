@@ -29,13 +29,17 @@
 
 /* When you mouse over the navigation links, change their color */
 .sidebar a:hover {
-    color: #f1f1f1;
+    color: #f7f8f1;
 }
 
 .sidebar h1 {
-    color: white;
+    color: #f7f8f1;
     padding: 6px 8px 6px 16px;
     display: inline;
+}
+
+.sidebar-left {
+    float: left;
 }
 
 .sidebar-right {

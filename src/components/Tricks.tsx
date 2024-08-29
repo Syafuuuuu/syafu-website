@@ -2,6 +2,8 @@ function Tricks() {
   return (
     <>
       <div className="SidebySide">
+        <h1>Tricks of the Trade</h1>
+        <br></br>
         <div className="Dev-Col">
           <ul>
             <TrickDetail name="Python" filename="python" />

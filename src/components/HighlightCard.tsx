@@ -1,13 +1,14 @@
 function HighlightCard(props: any) {
   return (
-    <div className="highcard">
+    <a
+      className="highcard"
+      style={{ backgroundImage: "url(" + props.pic + ")" }}
+      href={props.url}
+    >
       <div className="highcard-title">
         <h3>{props.title}</h3>
       </div>
-      <div className="highcard-desc">
-        <p>{props.desc}</p>
-      </div>
-    </div>
+    </a>
   );
 }
 
