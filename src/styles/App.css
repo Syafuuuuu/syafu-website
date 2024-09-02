@@ -1,3 +1,30 @@
 .fullbody {
     background-color: blue;
 }
+
+.content {
+    height: auto;
+    width: auto;
+    /* Same as the width of the sidebar */
+    background-color: black;
+    background-image: url("./assets/BgGrain.png");
+    background-position: center;
+    background-attachment: fixed;
+    color: #f7f8f1;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.tricks-container {
+    /*Wtf is that spacing?*/
+    height: 100vh;
+    align-content: center;
+}
+
+.proj-container {
+    /*Wtf is that spacing?*/
+    height: 100vh;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+}

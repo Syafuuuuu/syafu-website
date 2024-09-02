@@ -3,48 +3,10 @@
     src: url("./assets/Azonix.otf");
 }
 
-.content {
-    height: auto;
-    width: auto;
-    /* Same as the width of the sidebar */
-    background-color: black;
-    background-image: url("./assets/BgGrain.png");
-    background-position: center;
-    background-attachment: fixed;
-    color: #f7f8f1;
-    text-align: center;
-}
-
-.card-container {
-    /*Wtf is that spacing?*/
-    height: 100vh;
-    align-content: center;
-
-}
-
-.card-container h1 {
-    margin: 10px;
-    height: auto;
-    font-size: 2.5rem;
-}
-
-.tricks-container {
-    /*Wtf is that spacing?*/
-    height: 100vh;
-    align-content: center;
-}
-
-.proj-container {
-    /*Wtf is that spacing?*/
-    height: 100vh;
-    align-content: center;
-    display: flex;
-    flex-direction: row;
-}
-
 .intro {
     height: 100vh;
     align-content: center;
+    z-index: 5;
 }
 
 .intro p {
@@ -53,6 +15,7 @@
 
 .intro h3 {
     font-size: 2.5rem;
+    z-index: 5;
 }
 
 .prevent-select {
@@ -70,4 +33,13 @@
 
 .SocMed-Icon {
     padding: 10px 0px 10px 0px;
+}
+
+.DevBg {
+    align-content: center;
+    z-index: 0;
+}
+
+.Selector {
+    z-index: 5;
 }
