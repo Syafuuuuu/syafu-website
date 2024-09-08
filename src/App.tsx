@@ -21,7 +21,7 @@ function App() {
         {/* Project Highlights */}
         <HighlightProjects />
         {/* Tricks of the Trade */}
-        <div className="tricks-container">
+        <div className="tricks-container-app">
           <Tricks />
         </div>
         {/* Project Archive */}

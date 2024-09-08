@@ -1,13 +1,7 @@
-import Shapes from "./Shapes.tsx";
 import DynamicBg from "./DynamicBg.tsx";
 
-import { useEffect, useRef, useState } from "react";
-import {
-  motion,
-  useInView,
-  useAnimation,
-  AnimatePresence,
-} from "framer-motion";
+import { useEffect, useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 
 function Home() {
   const [RoleText, setText] = useState("Move your mouse");

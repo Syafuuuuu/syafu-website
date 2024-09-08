@@ -1,6 +1,5 @@
 import Shapes from "./Shapes.tsx";
 import BlockReveal from "./BlockReveal.tsx";
-import { motion, AnimatePresence } from "framer-motion";
 
 function DynamicBg(props: any) {
   if (props.type == "Dev") {
