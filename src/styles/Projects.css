@@ -8,15 +8,24 @@
 
 .proj-left li {
     padding-right: 2rem;
+    list-style-type: none;
+    transition: all 0.3s ease;
 }
 
-.proj-left li {
-    list-style-type: none;
+.proj-left li:hover {
+    padding-left: 2rem;
 }
 
 .proj-left a {
     font-size: 1.25rem;
     color: #04151f;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.proj-left a:hover {
+    font-size: 1.25rem;
+    color: #1988c8;
     text-decoration: none;
 }
 
@@ -27,6 +36,12 @@
     align-content: center;
     padding: 2vh 0;
     border-bottom: solid #04151f;
+    transition: all 0.3s ease;
+}
+
+.proj-row:hover {
+    transition: all 0.3s ease;
+    border-bottom: solid #1988c8;
 }
 
 .proj-title {
@@ -51,12 +66,15 @@
     background-color: aqua;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
+    transition: opacity 0.3s ease-in-out;
 }
 
-.preview-wrapper img {
-    height: 100%;
-    width: 100%;
-    object-position: 50%;
-    object-fit: 50%;
-    inset: 0px;
+/* Fade-in and fade-out classes */
+.fade-in {
+    opacity: 1;
+}
+
+.fade-out {
+    opacity: 0;
 }
