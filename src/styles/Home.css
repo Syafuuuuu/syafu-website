@@ -43,3 +43,26 @@
 .Selector {
     z-index: 5;
 }
+
+.social-media-bar {
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    gap: 10px;
+    /* Space between icons */
+    padding: 10px;
+}
+
+.social-media-icon img {
+    width: 50px;
+    /* Icon width */
+    height: 50px;
+    /* Icon height */
+    transition: transform 0.3s ease;
+    /* Smooth scaling effect */
+}
+
+.social-media-icon img:hover {
+    transform: scale(1.1);
+    /* Enlarge icon on hover */
+}

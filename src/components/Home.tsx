@@ -55,7 +55,25 @@ function Home() {
             {RoleText}
           </motion.h1>
         </AnimatePresence>
-        <p>dajdajdh ajd j dla jshdj</p>
+        <p>Merging Code, Intelligence, and Design</p>
+
+        <div className="social-media-bar">
+          <a
+            href="https://www.instagram.com/syafuuuuu/"
+            className="social-media-icon"
+          >
+            <img src=".\assets\insta.png" alt="Instagram" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/syafu/"
+            className="social-media-icon"
+          >
+            <img src=".\assets\linkedin.png" alt="LinkedIn" />
+          </a>
+          <a href="https://github.com/Syafuuuuu" className="social-media-icon">
+            <img src=".\assets\github.png" alt="GitHub" />
+          </a>
+        </div>
       </div>
     </>
   );
