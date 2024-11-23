@@ -55,6 +55,8 @@ const Tricks = () => {
     "UI/UX Design",
   ];
 
+  //
+
   const tools: {
     Frontend: { name: string; icon: string }[];
     "Data Analytic & Ai": { name: string; icon: string }[];
