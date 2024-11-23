@@ -11,6 +11,7 @@ import "./styles/HighlightProjects.css";
 import "./styles/Tricks.css";
 import "./styles/Projects.css";
 import "./styles/App.css";
+import "swiper/css";
 
 function App() {
   return (
