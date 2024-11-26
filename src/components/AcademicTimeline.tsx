@@ -82,7 +82,7 @@ const AcademicTimeline = () => (
         <p>Details about your third year achievements and experiences.</p>
       </VerticalTimelineElement>
       {/* ------------------------------------------------------------------------ */}
-      {/* Final Year */}
+      {/* Final Year Project */}
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
         contentStyle={{ background: "#1a1d29", color: "#fff" }}
