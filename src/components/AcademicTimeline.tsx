@@ -95,7 +95,7 @@ const AcademicTimeline = () => (
         </h3>
         <p>
           Going all in for theoretical computer science for my Final Year
-          Project
+          Project!!!
         </p>
       </VerticalTimelineElement>
     </VerticalTimeline>
