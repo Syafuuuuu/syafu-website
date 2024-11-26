@@ -93,7 +93,10 @@ const AcademicTimeline = () => (
         <h3 className="vertical-timeline-element-title">
           Final year student specializing in Human-Centered Computing
         </h3>
-        <p>Doing my FYP</p>
+        <p>
+          Going all in for theoretical computer science for my Final Year
+          Project
+        </p>
       </VerticalTimelineElement>
     </VerticalTimeline>
   </section>
