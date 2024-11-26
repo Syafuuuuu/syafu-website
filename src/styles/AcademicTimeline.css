@@ -1,0 +1,9 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* Each section fills the screen height */
+    padding: 60px 15px;
+}

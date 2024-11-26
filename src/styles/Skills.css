@@ -1,0 +1,68 @@
+.skills-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* Each section fills the screen height */
+    padding: 60px 15px;
+}
+
+.react-tabs__tab-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+}
+
+.react-tabs__tab {
+    margin: 0 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.react-tabs__tab--selected {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1a1d29;
+    padding: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.skill-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.skill-item p {
+    margin: 0;
+    color: #f8f9fa;
+    /* Offwhite color */
+    text-align: center;
+}

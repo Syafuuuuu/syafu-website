@@ -1,0 +1,38 @@
+.footer {
+    background-color: #1a1d29;
+    color: #f8f9fa;
+    padding: 20px 0;
+}
+
+.footer .container-fluid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .footer-left {
+    flex: 1;
+}
+
+.footer .footer-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.footer .footer-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer .footer-link:hover {
+    text-decoration: underline;
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+    filter: invert(100%);
+}

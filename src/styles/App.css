@@ -1,74 +1,64 @@
-@font-face {
-    font-family: "Azonix";
-    src: url(".public/assets/Azonix.otf");
-}
-
-/* Universal Selector to Ensure Box Model Consistency */
-* {
-    box-sizing: border-box;
+body {
+    background-color: #101524;
+    color: #f8f9fa;
+    /* Offwhite color */
     margin: 0;
     padding: 0;
 }
 
-html,
-body {
-    width: 100%;
-    overflow-x: hidden;
-    /* Prevent horizontal scrolling */
-}
-
-/* Updated .fullbody Class */
-.fullbody {
-    background-color: blue;
-}
-
-/* Ensure .content fits within viewport */
-.content {
-    height: auto;
-    width: 100%;
-    /* Ensure it spans the full width of its container */
-    background-color: black;
-    background-image: url("/assets/BgGrain.png");
+.background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 120%;
+    height: 120%;
+    background-image: url("./assets/BgGrain.png");
+    background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     background-attachment: fixed;
-    color: #f7f8f1;
-    text-align: center;
-    overflow-x: hidden;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    /* Ensure it stays behind other content */
 }
 
-/* Adjust .tricks-container-app to fit within viewport */
-.tricks-container-app {
-    height: 100vh;
-    width: 100vw;
-    /* Adjust this as needed, use 100% if necessary */
-    align-content: center;
-    display: inline-block;
-    overflow-x: hidden;
-    /* Ensure no horizontal overflow */
+.app-container {
+    position: relative;
+    z-index: 1;
+    /* Ensure content stays above the background */
 }
 
-/* Adjust .proj-container to fit within viewport */
-.proj-container {
-    height: 100vh;
-    width: 100vw;
-    /* Adjust this as needed, use 100% if necessary */
-    align-content: center;
+.text-offwhite {
+    color: #f8f9fa;
+    /* Offwhite color */
+}
+
+.card {
+    background-color: #1a1d29;
+    border: none;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.section {
     display: flex;
-    flex-direction: row;
-    overflow-x: hidden;
-    /* Ensure no horizontal overflow */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* Each section fills the screen height */
+    padding: 60px 15px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-/* Specific media queries for responsive design */
-@media (max-width: 768px) {
-    .content {
-        width: 100%;
-        /* Ensure it spans the full width of its container on smaller screens */
-    }
-
-    .tricks-container-app,
-    .proj-container {
-        width: 100%;
-        /* Ensure full width on smaller screens */
-    }
+.container {
+    max-width: 1200px;
+    /* Adjust as needed for your design */
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+    box-sizing: border-box;
 }
