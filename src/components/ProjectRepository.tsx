@@ -1,42 +1,18 @@
-// import React from "react";
-// import "./ProjectRepository.css";
-
-const projects = [
-  {
-    title: "Social Interaction Model in Public Spaces (SIMPS)",
-    description:
-      "My Final year Project (FYP) to merge both Artificial Intelligence and Human Behaviour",
-    imageUrl: "./assets/FYP.png", // Update this with the actual path to your image
-    link: "https://github.com/yourusername/ai-chatbot", // GitHub link or live demo link
-  },
-  {
-    title: "Oh!Crab Project",
-    description:
-      "Leading a high-impact project from the angle of design, feel, and vibes.",
-    imageUrl: "./assets/OHCrab.png", // Update this with the actual path to your image
-    link: "https://github.com/yourusername/data-dashboard", // GitHub link or live demo link
-  },
-  {
-    title: "Experimenting with Orange Data Mining Tool",
-    description:
-      "Using Brain tumour MRI dataset from KAggle, I find out how good is Orange",
-    imageUrl: "./assets/BrainMRI.png", // Update this with the actual path to your image
-    link: "https://dribbble.com/yourusername", // Dribbble link or portfolio link
-  },
-  // Add more projects as needed
-];
+import { Link } from "react-router-dom";
+import projects from "./ProjectData.tsx";
 
 const ProjectRepository = () => (
-  <section className="project-repository-section section container">
+  <section
+    id="projects"
+    className="project-repository-section section container"
+  >
     <h2 className="text-offwhite">Project Repository</h2>
     <div className="project-list">
-      {projects.map((project, index) => (
-        <a
-          href={project.link}
-          target="_blank"
-          rel="noopener noreferrer"
+      {projects.map((project) => (
+        <Link
+          to={`/project/${project.id}`}
           className="project-item"
-          key={index}
+          key={project.id}
         >
           <div className="project-content">
             <h5 className="text-offwhite">{project.title}</h5>
@@ -49,7 +25,7 @@ const ProjectRepository = () => (
               className="img-fluid"
             />
           </div>
-        </a>
+        </Link>
       ))}
     </div>
     <div className="text-center mt-4">
@@ -59,6 +35,7 @@ const ProjectRepository = () => (
         rel="noopener noreferrer"
         className="view-all-link"
       >
+        {" "}
         View Project Repository
       </a>
     </div>

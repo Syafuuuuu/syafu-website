@@ -1,0 +1,35 @@
+.project-detail {
+    padding: 40px 0;
+}
+
+.project-detail .container {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #f8f9fa;
+}
+
+.project-detail h2 {
+    margin-bottom: 20px;
+}
+
+.project-detail img.img-fluid {
+    margin: 20px 0;
+    width: 100%;
+}
+
+.project-detail .placeholder-content {
+    margin-top: 30px;
+}
+
+.project-detail h3 {
+    margin-top: 30px;
+}
+
+.project-detail ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.project-detail p {
+    margin-bottom: 20px;
+}
