@@ -4,23 +4,11 @@
     padding: 20px 0;
 }
 
-.footer-right {
-    position: absolute;
-    right: 20px;
-    /* Adjust as needed */
-    display: flex;
-    justify-content: flex-end;
-    gap: 15px;
-}
-
-
 .footer .container-fluid {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* Ensures even spacing */
     align-items: center;
-    /* Centers items vertically */
 }
 
 .footer .footer-left {
@@ -31,7 +19,6 @@
     flex: 1;
     display: flex;
     justify-content: flex-end;
-    /* Pushes icons to the right */
     gap: 15px;
 }
 
@@ -47,4 +34,5 @@
 .social-icon {
     width: 24px;
     height: 24px;
+    filter: invert(100%);
 }

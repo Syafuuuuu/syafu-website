@@ -15,7 +15,7 @@ const AcademicTimeline = () => (
         className="vertical-timeline-element--education"
         contentStyle={{ background: "#1a1d29", color: "#fff" }}
         contentArrowStyle={{ borderRight: "7px solid  #1a1d29" }}
-        date="Sept 2021"
+        date="September 2021"
         iconStyle={{ background: "#1a1d29", color: "#fff" }}
       >
         <h3 className="vertical-timeline-element-title">
@@ -33,7 +33,7 @@ const AcademicTimeline = () => (
         className="vertical-timeline-element--education"
         contentStyle={{ background: "#1a1d29", color: "#fff" }}
         contentArrowStyle={{ borderRight: "7px solid  #1a1d29" }}
-        date="July 2022"
+        date="2022"
         iconStyle={{ background: "#1a1d29", color: "#fff" }}
       >
         <h3 className="vertical-timeline-element-title">
@@ -53,18 +53,18 @@ const AcademicTimeline = () => (
         className="vertical-timeline-element--education"
         contentStyle={{ background: "#1a1d29", color: "#fff" }}
         contentArrowStyle={{ borderRight: "7px solid  #1a1d29" }}
-        date="Oct 2022"
+        date="2022"
         iconStyle={{ background: "#1a1d29", color: "#fff" }}
       >
         <h3 className="vertical-timeline-element-title">
-          Google Developer Student Clubs UUM Multimedia Lead 2022/2023
+          Developed a keen interest in AI and Data Analytics
         </h3>
         <p>
-          When approached to be the Multimedia Lead of GDSC UUM, I jumped with
-          joy at the opportunity. This was the start of my extra-curicullar
-          journey where I could combine both my passions art and technology
-          together. I set forth with fiery passion, a mind full of ideas, and a
-          will of steel.{" "}
+          After learning Artificial Intelligence and Data Analytics, I fell in
+          love. The idea that data that is all around us can be processed and
+          turned into information became something that was exciting. To use
+          data to find patterns, trends and insights to help people make better
+          decisions was a pathway to helping people in the future.{" "}
         </p>
       </VerticalTimelineElement>
       {/* ------------------------------------------------------------------------ */}
@@ -73,22 +73,16 @@ const AcademicTimeline = () => (
         className="vertical-timeline-element--education"
         contentStyle={{ background: "#1a1d29", color: "#fff" }}
         contentArrowStyle={{ borderRight: "7px solid  #1a1d29" }}
-        date="OCt 2023"
+        date="2023"
         iconStyle={{ background: "#1a1d29", color: "#fff" }}
       >
         <h3 className="vertical-timeline-element-title">
           Google Developer Student Clubs UUM Lead 2023/2024
         </h3>
-        <p>
-          After a year of being the Multimedia Lead in GDSC UUM, I was given the
-          opportunity to become the LEad of 2023/2024. In my tenure, we treated
-          it as an experimental tenure to see what works and what doesn't in our
-          managemnet focused university. Many issues and obsticals were met and
-          overcomed, many lessons learned, and many memories made.
-        </p>
+        <p>Details about your third year achievements and experiences.</p>
       </VerticalTimelineElement>
       {/* ------------------------------------------------------------------------ */}
-      {/* Final Year Project */}
+      {/* Final Year */}
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
         contentStyle={{ background: "#1a1d29", color: "#fff" }}
@@ -100,11 +94,8 @@ const AcademicTimeline = () => (
           Final year student specializing in Human-Centered Computing
         </h3>
         <p>
-          At last, I have reached the final year of my degree adventure. To end
-          it with a bang, I took upon a terrifying Final Year Project under a
-          supervisor I much look up to. Combining both human psychology,
-          emotion, and theorhetical computing, I set forth in making the world a
-          more connected place without barriers.
+          Going all in for theoretical computer science for my Final Year
+          Project
         </p>
       </VerticalTimelineElement>
     </VerticalTimeline>

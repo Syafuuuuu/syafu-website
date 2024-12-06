@@ -1,6 +1,9 @@
+// import React from 'react';
+// import './Navbar.css';
+
 const Navbar = () => (
   <nav className="navbar">
-    <div className="navbar-container">
+    <div className="navbar-container container">
       <a href="#home" className="navbar-brand">
         <img src="./assets/SyafuIcon.png" alt="Logo" className="navbar-icon" />
       </a>

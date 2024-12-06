@@ -1,3 +1,4 @@
+// import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/App.css";
 import "./styles/ProjectRepository.css";
@@ -5,35 +6,17 @@ import "./styles/AcademicTimeline.css";
 import "./styles/ContactMe.css";
 import "./styles/Skills.css";
 import "./styles/Navbar.css";
-import "./styles/ProjectDetail.css";
-import "./styles/WIP.css";
-
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import AcademicTimeline from "./components/AcademicTimeline.tsx";
 import ProjectRepository from "./components/ProjectRepository.tsx";
 import ContactMe from "./components/ContactMe.tsx";
 import Skills from "./components/Skills.tsx";
 import Navbar from "./components/Navbar.tsx";
-import ProjectDetail from "./components/ProjectDetail.tsx";
 
 const App = () => (
-  <Router>
-    <div className="container-fluid p-0">
-      <div className="background"></div>
-      <Navbar />
-      <Routes>
-        {" "}
-        <Route path="/" element={<Home />} />{" "}
-        <Route path="/project/:id" element={<ProjectDetail />} />{" "}
-      </Routes>
-      <ContactMe />
-    </div>
-  </Router>
-);
-
-const Home = () => (
-  <>
+  <div className="container-fluid p-0">
+    <div className="background"></div>
+    <Navbar />
     <header className="text-center py-5 section">
       <h1 className="text-offwhite">Syafiq Azhari</h1>
       <p>Computer Science Student | AI | Data Analytics | UI/UX Design</p>
@@ -43,8 +26,11 @@ const Home = () => (
       <AcademicTimeline />
       <Skills />
       <ProjectRepository />
+      {/* Add other sections here */}
     </main>
-  </>
+
+    <ContactMe />
+  </div>
 );
 
 export default App;

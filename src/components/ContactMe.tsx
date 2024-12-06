@@ -1,3 +1,6 @@
+// import React from "react";
+// import "./ContactMe.css";
+
 const socialMedia = [
   {
     name: "Instagram",
