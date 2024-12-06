@@ -1,4 +1,4 @@
-// import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/App.css";
 import "./styles/ProjectRepository.css";
@@ -6,31 +6,42 @@ import "./styles/AcademicTimeline.css";
 import "./styles/ContactMe.css";
 import "./styles/Skills.css";
 import "./styles/Navbar.css";
+import "./styles/Gallery.css";
+import "./styles/QuoteBlock.css";
+import "./styles/TextBlock.css";
+import "./styles/VideoBlock.css";
+import "./styles/ImageBlock.css";
+import "./styles/ProjectHero.css";
 
-import AcademicTimeline from "./components/AcademicTimeline.tsx";
-import ProjectRepository from "./components/ProjectRepository.tsx";
-import ContactMe from "./components/ContactMe.tsx";
-import Skills from "./components/Skills.tsx";
-import Navbar from "./components/Navbar.tsx";
+import Hero from "./components/Hero";
+import AcademicTimeline from "./components/AcademicTimeline";
+import ProjectRepository from "./components/ProjectRepository";
+import ContactMe from "./components/ContactMe";
+import Skills from "./components/Skills";
+import Navbar from "./components/Navbar";
+import ExampleProjectPage from "./components/ExampleProjectPage";
 
 const App = () => (
-  <div className="container-fluid p-0">
-    <div className="background"></div>
-    <Navbar />
-    <header className="text-center py-5 section">
-      <h1 className="text-offwhite">Syafiq Azhari</h1>
-      <p>Computer Science Student | AI | Data Analytics | UI/UX Design</p>
-    </header>
-
-    <main>
-      <AcademicTimeline />
-      <Skills />
-      <ProjectRepository />
-      {/* Add other sections here */}
-    </main>
-
-    <ContactMe />
-  </div>
+  <Router>
+    <div className="container-fluid p-0">
+      <div className="background"></div>
+      <Navbar />
+      {/* <header className="text-center py-5 section">
+        <h1 className="text-offwhite">Syafiq Azhari</h1>
+        <p>Computer Science Student | AI | Data Analytics | UI/UX Design</p>
+      </header> */}
+      <main>
+        <Routes>
+          <Route path="/" element={<Hero />} />
+          <Route path="/AcademicTimeline" element={<AcademicTimeline />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/projects" element={<ProjectRepository />} />
+          <Route path="/project-example" element={<ExampleProjectPage />} />
+        </Routes>
+      </main>
+      <ContactMe />
+    </div>
+  </Router>
 );
 
 export default App;

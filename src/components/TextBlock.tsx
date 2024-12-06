@@ -1,5 +1,5 @@
 // import React from 'react';
-import "./TextBlock.css";
+// import "./TextBlock.css";
 
 interface TextBlockProps {
   content: string;

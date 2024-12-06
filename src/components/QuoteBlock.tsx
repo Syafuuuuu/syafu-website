@@ -1,5 +1,5 @@
-import React from "react";
-import "./QuoteBlock.css";
+// import React from "react";
+// import "./QuoteBlock.css";
 
 interface QuoteBlockProps {
   quote: string;

@@ -1,5 +1,5 @@
 // import React from "react";
-import "./VideoBlock.css";
+// import "./VideoBlock.css";
 
 interface VideoBlockProps {
   src: string;

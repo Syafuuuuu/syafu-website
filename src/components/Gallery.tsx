@@ -1,5 +1,5 @@
 // import React from "react";
-import "./Gallery.css";
+// import "./Gallery.css";
 
 interface GalleryProps {
   images: { src: string; alt: string }[];

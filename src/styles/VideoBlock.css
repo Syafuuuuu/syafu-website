@@ -1,5 +1,7 @@
 .video-block {
   margin: 20px 0;
+  width: 100%;
+  height: fit-content;
 }
 
 .video-block-iframe {

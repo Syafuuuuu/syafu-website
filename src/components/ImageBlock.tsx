@@ -1,5 +1,5 @@
-import React from "react";
-import "./ImageBlock.css";
+// import React from "react";
+// import "./ImageBlock.css";
 
 interface ImageBlockProps {
   src: string;

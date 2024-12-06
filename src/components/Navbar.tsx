@@ -1,28 +1,25 @@
-// import React from 'react';
-// import './Navbar.css';
+import { Link } from "react-router-dom";
+// import "./Navbar.css";
 
 const Navbar = () => (
   <nav className="navbar">
     <div className="navbar-container container">
-      <a href="#home" className="navbar-brand">
+      <Link to="/" className="navbar-brand">
         <img src="./assets/SyafuIcon.png" alt="Logo" className="navbar-icon" />
-      </a>
+      </Link>
       <div className="navbar-links">
-        <a href="#about" className="navbar-link">
+        <Link to="/about" className="navbar-link">
           About Me
-        </a>
-        <a href="#timeline" className="navbar-link">
-          Timeline
-        </a>
-        <a href="#projects" className="navbar-link">
+        </Link>
+        <Link to="/projects" className="navbar-link">
           Projects
-        </a>
-        <a href="#skills" className="navbar-link">
-          Skills
-        </a>
-        <a href="#contact" className="navbar-link">
+        </Link>
+        <Link to="/project-example" className="navbar-link">
+          Project Example
+        </Link>
+        <Link to="/contact" className="navbar-link">
           Contact
-        </a>
+        </Link>
       </div>
     </div>
   </nav>
