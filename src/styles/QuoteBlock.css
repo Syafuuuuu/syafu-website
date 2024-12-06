@@ -1,0 +1,18 @@
+.quote-block {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #1a1d29;
+    color: #f8f9fa;
+    border-radius: 8px;
+    font-style: italic;
+}
+
+.quote-block blockquote {
+    margin: 0;
+}
+
+.quote-block footer {
+    margin-top: 10px;
+    color: #9c9c9c;
+    text-align: right;
+}
