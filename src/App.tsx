@@ -12,6 +12,7 @@ import "./styles/TextBlock.css";
 import "./styles/VideoBlock.css";
 import "./styles/ImageBlock.css";
 import "./styles/ProjectHero.css";
+import "./styles/PDFReader.css";
 
 import Hero from "./components/Hero";
 import AcademicTimeline from "./components/AcademicTimeline";

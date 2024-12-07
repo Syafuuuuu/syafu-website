@@ -4,6 +4,7 @@ import ImageBlock from "./ImageBlock";
 import Gallery from "./Gallery";
 import VideoBlock from "./VideoBlock";
 import QuoteBlock from "./QuoteBlock";
+import PDFReader from "./PDFReader";
 
 const ExampleProjectPage = () => (
   <div>
@@ -29,6 +30,7 @@ const ExampleProjectPage = () => (
         title="Example Video"
       />
       <QuoteBlock quote="This is an example quote." author="Author Name" />
+      <PDFReader fileUrl="./public/assets/ModelingReportFinalPSS.pdf" />
     </main>
   </div>
 );
