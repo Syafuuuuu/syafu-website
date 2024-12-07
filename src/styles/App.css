@@ -1,10 +1,16 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     background-color: #101524;
     color: #f8f9fa;
     /* Offwhite color */
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
+
 
 .background {
     position: fixed;
@@ -12,7 +18,7 @@ body {
     left: 50%;
     width: 120%;
     height: 120%;
-    background-image: url("./assets/BgGrain.png");
+    background-image: url("/assets/BgGrain.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

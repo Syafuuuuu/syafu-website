@@ -9,20 +9,17 @@ import PDFReader from "./PDFReader";
 const ExampleProjectPage = () => (
   <div>
     <main className="content section">
-      <ProjectHero
-        imageUrl="./public/assets/OHCrab.png"
-        title="Example Project"
-      />
+      <ProjectHero imageUrl="./assets/OHCrab.png" title="Example Project" />
       <TextBlock content="This is an example text block." />
       <ImageBlock
-        src="./public/assets/BrainMRI.png"
+        src="./assets/BrainMRI.png"
         alt="Example"
         caption="This is an example image."
       />
       <Gallery
         images={[
-          { src: "./public/assets/OHCrab.png", alt: "Example 1" },
-          { src: "./public/assets/BrainMRI.png", alt: "Example 2" },
+          { src: "./assets/OHCrab.png", alt: "Example 1" },
+          { src: "./assets/BrainMRI.png", alt: "Example 2" },
         ]}
       />
       <VideoBlock
@@ -30,7 +27,7 @@ const ExampleProjectPage = () => (
         title="Example Video"
       />
       <QuoteBlock quote="This is an example quote." author="Author Name" />
-      <PDFReader fileUrl="./public/assets/ModelingReportFinalPSS.pdf" />
+      <PDFReader fileUrl="./assets/ModelingReportFinalPSS.pdf" />
     </main>
   </div>
 );
