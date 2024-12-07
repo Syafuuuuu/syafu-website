@@ -5,22 +5,22 @@ const socialMedia = [
   {
     name: "Instagram",
     url: "https://www.instagram.com/yourusername",
-    icon: "./assets/insta.png", // Update this with the actual path to your icon
+    icon: "/assets/insta.png", // Update this with the actual path to your icon
   },
   {
     name: "LinkedIn",
     url: "https://www.linkedin.com/in/yourusername",
-    icon: "./assets/linkedin.png", // Update this with the actual path to your icon
+    icon: "/assets/linkedin.png", // Update this with the actual path to your icon
   },
   {
     name: "YouTube",
     url: "https://www.youtube.com/yourusername",
-    icon: "./assets/youtube.png", // Update this with the actual path to your icon
+    icon: "/assets/youtube.png", // Update this with the actual path to your icon
   },
   {
     name: "GitHub",
     url: "https://www.github.com/yourusername",
-    icon: "./assets/github.png", // Update this with the actual path to your icon
+    icon: "/assets/github.png", // Update this with the actual path to your icon
   },
 ];
 
