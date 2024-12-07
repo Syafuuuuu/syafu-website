@@ -46,7 +46,7 @@ const App = () => (
         </Routes> */}
         <Suspense fallback={<div>Loading...</div>}>
           <Routes>
-            <Route path="/syafu-website/" element={<Hero />} />
+            <Route path="/" element={<Hero />} />
             <Route path="/AcademicTimeline" element={<AcademicTimeline />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/projects" element={<ProjectRepository />} />

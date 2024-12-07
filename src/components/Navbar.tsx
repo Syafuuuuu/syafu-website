@@ -8,9 +8,9 @@ const Navbar = () => (
         <img src="./assets/SyafuIcon.png" alt="Logo" className="navbar-icon" />
       </Link>
       <div className="navbar-links">
-        <Link to="/about" className="navbar-link">
+        {/* <Link to="/about" className="navbar-link">
           About Me
-        </Link>
+        </Link> */}
         <Link to="/projects" className="navbar-link">
           Projects
         </Link>
