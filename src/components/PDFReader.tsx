@@ -3,7 +3,7 @@ import * as pdfjsLib from "pdfjs-dist";
 // import "./PDFReader.css";
 
 // Adjust the workerSrc to point to the local copy in your public directory
-pdfjsLib.GlobalWorkerOptions.workerSrc = "./pdf.worker.min.mjs";
+pdfjsLib.GlobalWorkerOptions.workerSrc = "./pdf.worker.min.js";
 
 interface PDFReaderProps {
   fileUrl: string;
