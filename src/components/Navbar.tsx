@@ -5,7 +5,11 @@ const Navbar = () => (
   <nav className="navbar">
     <div className="navbar-container container">
       <Link to="/" className="navbar-brand">
-        <img src="./assets/SyafuIcon.png" alt="Logo" className="navbar-icon" />
+        <img
+          src="./public/assets/SyafuIcon.png"
+          alt="Logo"
+          className="navbar-icon"
+        />
       </Link>
       <div className="navbar-links">
         <Link to="/about" className="navbar-link">
