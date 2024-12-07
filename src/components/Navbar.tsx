@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => (
   <nav className="navbar">
     <div className="navbar-container container">
-      <Link to="/" className="navbar-brand">
+      <Link to="/syafu-website" className="navbar-brand">
         <img src="./assets/SyafuIcon.png" alt="Logo" className="navbar-icon" />
       </Link>
       <div className="navbar-links">

@@ -6,21 +6,21 @@ const projects = [
     title: "Social Interaction Model in Public Spaces (SIMPS)",
     description:
       "My Final year Project (FYP) to merge both Artificial Intelligence and Human Behaviour",
-    imageUrl: "./assets/FYP.png", // Update this with the actual path to your image
+    imageUrl: "/assets/FYP.png", // Update this with the actual path to your image
     link: "https://github.com/yourusername/ai-chatbot", // GitHub link or live demo link
   },
   {
     title: "Oh!Crab Project",
     description:
       "Leading a high-impact project from the angle of design, feel, and vibes.",
-    imageUrl: "./assets/OHCrab.png", // Update this with the actual path to your image
+    imageUrl: "/assets/OHCrab.png", // Update this with the actual path to your image
     link: "https://github.com/yourusername/data-dashboard", // GitHub link or live demo link
   },
   {
     title: "Experimenting with Orange Data Mining Tool",
     description:
       "Using Brain tumour MRI dataset from KAggle, I find out how good is Orange",
-    imageUrl: "./assets/BrainMRI.png", // Update this with the actual path to your image
+    imageUrl: "/assets/BrainMRI.png", // Update this with the actual path to your image
     link: "https://dribbble.com/yourusername", // Dribbble link or portfolio link
   },
   // Add more projects as needed
